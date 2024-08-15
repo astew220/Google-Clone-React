@@ -1,0 +1,154 @@
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 15px ;
+}
+
+
+.nav-container ul a{
+  text-decoration: none;
+  color: rgb(45,47,47);
+  width: 60px;
+}
+
+.nav-container ul a:hover{
+  text-decoration: underline;
+}
+
+.labs-icon:hover, .apps-icon:hover, .profile-photo:hover{
+ background-color: rgb(240,240,240);
+ border-radius: 50%;
+
+}
+.labs-icon, .apps-icon, .profile-photo{
+  padding: 10px;
+
+}
+
+
+.navbar-left{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-left a{
+  margin-left: 10px;
+  
+}
+
+.navbar-left a,
+.navbar-right a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.navbar-right{
+  display: flex;
+  align-items: center;
+margin: 0;
+}
+
+.navbar-right a{
+  display: flex;
+  justify-content: center;
+}
+
+
+.labs-icon{
+  color: rgb(45,47,47);
+  height: 20px;
+}
+
+.apps-icon{
+  height: 50px
+}
+
+
+#search-input{
+  border: none;
+  width: 80%;
+}
+
+.searchbar-contents{
+  border: 1px solid #babdbf;
+  height: 50px;
+  border-radius: 25px;
+  width: 75vw;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  margin: 25px;
+}
+
+.searchbar-contents:hover{
+  box-shadow: 0px 1px 5px lightgrey;
+  border: 0;
+}
+
+#google-logo{
+ width: 300px;
+  
+}
+
+.logo-container{
+  margin-top: 175px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 100vw;
+}
+
+.search-buttons{
+  border: 0;
+  margin: 5px 8px;
+  padding: 8px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: rgb(247,248,249);
+  border-radius: 5px;
+}
+.search-buttons:hover{
+  border:1px solid #babdbf;
+  margin: 4px 7px;
+  box-shadow: 0px 1px 3px lightgrey;
+}
+ .search-icons:hover{
+ cursor: pointer;
+}
+
+.bottom-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgb(240,240,240);
+  width: 100vw;
+}
+
+.bottom-nav-container ul a{
+  text-decoration: none;
+  color: rgb(45,47,47);
+  font-size: 14px;
+  padding: 0 10px;
+}
+.bottom-nav-container ul{
+  margin: 0;
+  padding: 10px 20px; 
+}
+
+.bottom-nav-container ul a:hover{
+  text-decoration: underline;
+ 
+}
